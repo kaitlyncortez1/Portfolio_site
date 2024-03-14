@@ -51,6 +51,13 @@ table {
 
 /* Main Styles */
 
+body{
+    background-image: url('../img/patternbackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -59,28 +66,30 @@ header{
     width: 100%;
     background-color: #FFC8C1;
     padding: 1%;
+    
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row; 
+    width: 30%;
 }
 
 nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
     flex-direction: row; 
 }
 
 nav ul li{
     background-color: #FF9A6E;
-    padding: 12% 13%;
+    padding: 9% 10%;
     font-size: 20px;
     box-shadow: 5px 10px #FE7F6E;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 nav ul li a{
@@ -88,3 +97,16 @@ nav ul li a{
     color: #fff;
 }
 
+nav ul li + li {
+    margin-left: 15px;
+}
+
+
+/* Homepage styles */
+
+.logobg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
