@@ -56,7 +56,16 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
   }
+
+#stripedbg{
+    background-image:url('../img/stripebackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 
 header{
     display: flex;
@@ -65,8 +74,15 @@ header{
     flex-direction: row;
     width: 100%;
     background-color: #FFC8C1;
-    padding: 1%;
-    
+    padding: 2%;
+}
+
+.header_centered{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
 }
 
 nav{
@@ -86,7 +102,7 @@ nav ul{
 
 nav ul li{
     background-color: #FF9A6E;
-    padding: 9% 10%;
+    padding: 7% 8%;
     font-size: 20px;
     box-shadow: 5px 10px #FE7F6E;
     border-radius: 30px;
@@ -101,6 +117,34 @@ nav ul li + li {
     margin-left: 15px;
 }
 
+.searchicon{
+    width: 60px;
+    height: 60px;
+}
+
+/* Main Style */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.horizontallayout{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    flex-direction: row;
+    top: 0%;
+}
 
 /* Homepage styles */
 
@@ -108,5 +152,100 @@ nav ul li + li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 40%;
+    transition: ease-in 3s;
 }
+
+/* About Page Styles */
+
+.sidepatterns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 1%;
+    width: 15%;
+}
+
+.sidepatterns img{
+    width: 125px;
+}
+
+#center_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    position: relative;
+    background-color: #F9B89A;
+    border-radius: 15%;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 80%;
+    padding: 3%;
+
+}
+
+#center_about img{
+    border-radius: 50%;
+    margin: 1%;
+}
+
+/* Portfolio Homepage Styles */
+
+.scroll_list,
+.scroll_results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 40%;
+    padding: 5%;
+}
+
+.scroll_list img,
+.scroll_result img{
+    width: 100%;
+    height: auto;
+}
+
+.work_thumbnail,
+.work_preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    position: relative;
+    flex-direction: column;
+    background-color: #F9AB89;
+    color: #fff;
+    padding: 3%;
+}
+
+.work_preview p{
+    margin: 2% 0%;
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+.work_preview button{
+    background-color: #FF9A6E;
+    padding: 3% 5%;
+    font-size: 1.1rem;
+    box-shadow: 3px 8px #FE7F6E;
+    border-radius: 30px;
+    color: #fff;
+    border: #FF9A6E;
+    margin: 2%;
+}
+
+.work_preview button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+

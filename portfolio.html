@@ -1,54 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <header>
-      <img src="Search.png"
-      width="68px"
-      height="68px"
-    
-      >
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header_centered">
+      <img src="img/Search.png" class="searchicon">
+
 
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+    </div>
 
-    </header>
-
-    <style> 
-      body {
-        background-image:url(img/patternbackground.png);
-        background-repeat; no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-      }
-
-      </style>
+  </header>
+  <!-- End Header -->
 
 
-    
+  <section>
 
-    <p>
+    <div class="horizontallayout">
+      <div class="scroll_list">
+        <div class="work_thumbnail">
+          <img src="https://fakeimg.pl/400x250/cccccc/909090">
+        </div>
 
-        About This Project
-        
-    </p>
+        <div class="work_thumbnail">
+          <img src="https://fakeimg.pl/400x250/cccccc/909090">
+        </div>
+
+        <div class="work_thumbnail">
+          <img src="https://fakeimg.pl/400x250/cccccc/909090">
+        </div>
+
+        <div class="work_thumbnail">
+          <img src="https://fakeimg.pl/400x250/cccccc/909090">
+        </div>
+      </div>
+
+      <div class="scroll_results">
+        <div class="work_preview" id="work1">
+          <img src="https://fakeimg.pl/400x600/cccccc/909090">
+          <p>Bacon ipsum dolor amet filet mignon ham hock porchetta corned beef bresaola doner salami hamburger meatball
+            kielbasa chicken.</p>
+          <button><a href="">Go See Work</a></button>
+        </div>
+
+        <div class="work_preview" id="work2">
+          <img src="https://fakeimg.pl/400x600/cccccc/909090">
+          <p>Bacon ipsum dolor amet filet mignon ham hock porchetta corned beef bresaola doner salami hamburger meatball
+            kielbasa chicken.</p>
+          <button><a href="">Go See Work</a></button>
+        </div>
+
+        <div class="work_preview" id="work3">
+          <img src="https://fakeimg.pl/400x600/cccccc/909090">
+          <p>Bacon ipsum dolor amet filet mignon ham hock porchetta corned beef bresaola doner salami hamburger meatball
+            kielbasa chicken.</p>
+          <button><a href="">Go See Work</a></button>
+        </div>
+
+        <div class="work_preview" id="work4">
+          <img src="https://fakeimg.pl/400x600/cccccc/909090">
+          <p>Bacon ipsum dolor amet filet mignon ham hock porchetta corned beef bresaola doner salami hamburger meatball
+            kielbasa chicken.</p>
+          <button><a href="">Go See Work</a></button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
 
 
 
-	<script src="js/index.js"></script> 
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
