@@ -169,12 +169,12 @@ section{
     align-items: center;
     margin: 0 auto;
     position: relative;
-    padding: 1%;
+    padding: 0%;
     width: 15%;
 }
 
 .sidepatterns img{
-    width: 125px;
+    width: 750px;
 }
 
 #center_about{
@@ -208,7 +208,7 @@ section{
     margin: 0 auto;
     flex-direction: column;
     width: 40%;
-    padding: 5%;
+    padding: 15%;
 }
 
 .scroll_list img,
@@ -253,6 +253,19 @@ section{
     color: #fff;
 }
 
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 55px;
+  }
+
+
 /* Contact Page Styles */
 
 .sendbutton{
@@ -284,6 +297,7 @@ section{
 @media screen and (min-width: 375px) and (max-width: 430px) {
     
 }
+
 
 
 
