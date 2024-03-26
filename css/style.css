@@ -165,7 +165,7 @@ section{
 
 .sidepatterns{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
     position: relative;
@@ -173,8 +173,9 @@ section{
     width: 15%;
 }
 
-.sidepatterns img{
-    width: 750px;
+.sidepatterns img{ 
+    height: 100vh;
+    width: auto;
 }
 
 #center_about{
@@ -194,6 +195,8 @@ section{
 }
 
 #center_about img{
+    width: 100px;
+    height: auto;
     border-radius: 50%;
     margin: 1%;
 }
@@ -207,8 +210,8 @@ section{
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
-    width: 40%;
-    padding: 15%;
+    width: 45%;
+    padding: 5%;
 }
 
 .scroll_list img,
@@ -267,6 +270,24 @@ h2 {
 
 
 /* Contact Page Styles */
+
+
+.contactbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 1%;
+    position: relative;
+    top: 80px;
+
+}
+.contactlogo img{
+    width: 450px;
+    height: auto;
+    margin: 1%;
+}
 
 .sendbutton{
     background-color: #FF9A6E;
