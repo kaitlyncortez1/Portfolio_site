@@ -171,6 +171,12 @@ section{
     position: relative;
     padding: 0%;
     width: 15%;
+    /*
+    background-image: url('../img/sidepattern1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    */
 }
 
 .sidepatterns img{ 
@@ -268,6 +274,18 @@ h2 {
     font-size: 55px;
   }
 
+  #work2 {
+    display: none;
+  }
+  
+  #work3 {
+    display: none;
+  }
+
+  #work4 {
+    display: none;
+  }
+
 
 /* Contact Page Styles */
 
@@ -278,15 +296,17 @@ h2 {
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 1%;
+    margin: 10px 0;
     position: relative;
     top: 80px;
 
+
 }
 .contactlogo img{
-    width: 450px;
+    width: 600px;
     height: auto;
-    margin: 1%;
+    margin: 10px 0;
+    opacity: 0.75;
 }
 
 .sendbutton{
