@@ -95,6 +95,8 @@ nav{
     align-items: center;
     flex-direction: row; 
     width: 30%;
+    position: relative;
+    right: 2rem;
 }
 
 nav ul{
@@ -147,7 +149,7 @@ section{
     position: relative;
     width: 90%;
     flex-direction: row;
-    top: 0%;
+    top: 50px;
 }
 
 /* Homepage styles */
@@ -163,25 +165,29 @@ section{
 
 /* About Page Styles */
 
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .sidepatterns{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
     position: relative;
-    padding: 0%;
+    padding: 1%;
     width: 15%;
-    /*
-    background-image: url('../img/sidepattern1.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat-y;
-    */
 }
 
 .sidepatterns img{ 
-    height: 100vh;
-    width: auto;
+  height: 550px;
+  margin: 0 auto;
 }
 
 #center_about{
@@ -209,14 +215,24 @@ section{
 
 /* Portfolio Homepage Styles */
 
-.scroll_list,
+.scroll_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 400px;
+    padding: 5%;
+}
+
+
 .scroll_results{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
-    width: 45%;
+    width: 500px;
     padding: 5%;
 }
 
