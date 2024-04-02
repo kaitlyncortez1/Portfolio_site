@@ -175,19 +175,23 @@ section{
     flex-wrap: nowrap;
 }
 
-.sidepatterns{
+.sidepatterns {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
+    margin-top: 0px;
     position: relative;
     padding: 1%;
-    width: 15%;
+    width: 25%;
+    top: -67px;
 }
 
 .sidepatterns img{ 
-  height: 550px;
+  height: 900px;
+  margin-top: 0;
   margin: 0 auto;
+  padding-top: 0px;
 }
 
 #center_about{
@@ -290,6 +294,14 @@ h2 {
     font-size: 55px;
   }
 
+  h4 {
+    font-size: 55px;
+  }
+
+  h5 {
+    font-size: 55px;
+  }
+
   #work2 {
     display: none;
   }
@@ -299,6 +311,10 @@ h2 {
   }
 
   #work4 {
+    display: none;
+  }
+
+  #work5 {
     display: none;
   }
 
