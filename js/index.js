@@ -9,3 +9,9 @@ jQuery(function() {
       jQuery('#work' + $(this).attr('target')).show();
     });
   });
+
+
+// Search Alert
+function myFunction() {
+  alert("Lol, like you were going to search for other things.");
+}

@@ -126,6 +126,8 @@ nav ul li + li {
 .searchicon{
     width: 60px;
     height: 60px;
+    cursor: -webkit-grab; 
+    cursor: grab;
 }
 
 /* Main Style */
@@ -238,6 +240,9 @@ section{
     flex-direction: column;
     width: 500px;
     padding: 5%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .scroll_list img,
