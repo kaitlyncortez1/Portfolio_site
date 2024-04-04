@@ -368,13 +368,43 @@ h2 {
 }
 
 @media screen and (min-width: 431px) and (max-width: 744px) {
+
+    .sidepatterns{
+        display: none;
+    }
+
+    #center_about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 9%;
+        padding: 10%;
+    }
+
+    .work_preview{
+        display: none;
+    }
+
+    .scroll_list{
+        width: 5000px;
+        
     
-}
+    }
+
+    .logobg{
+
+    }
+
+
 
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
-    
+   
 }
+
+}
+
 
 
 
