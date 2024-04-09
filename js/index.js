@@ -15,3 +15,13 @@ jQuery(function() {
 function myFunction() {
   alert("Lol, like you were going to search for other things.");
 }
+
+// Sidenav
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
