@@ -417,6 +417,13 @@ section {
     font-family: "Josefin Sans", sans-serif;
 }
 
+.work_description p {
+    margin: 2% 0%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+
 .work_preview button {
     background-color: #FF9A6E;
     padding: 3% 5%;
@@ -519,6 +526,10 @@ h5 {
 }
 
 #work5 {
+    display: none;
+}
+
+.printmaking_small{
     display: none;
 }
 
@@ -907,6 +918,40 @@ input{
         width: 350px;
     }
 
+    .printmaking_large{
+        display: block;
+    }
+    .printmaking_small{
+        display: none;
+    }
+
+    .tortellini_large{
+        display: block;
+    }
+    .tortellini_small{
+        display: none;
+    }
+
+    .turtles_large{
+        display: block;
+    }
+    .turtles_small{
+        display: none;
+    }
+
+    .beautifulpattern_large{
+        display: block;
+    }
+    .beautifulpattern_small{
+        display: none;
+    }
+
+    .monster_large{
+        display: block;
+    }
+    .monster_small{
+        display: none;
+    }
 
 }
 
@@ -1028,6 +1073,41 @@ input{
         left: -8px;
     }
 
+    .printmaking_large{
+        display: none;
+    }
+    .printmaking_small{
+        display: block;
+    }
+
+    .tortellini_large{
+        display: none;
+    }
+    .tortellini_small{
+        display: block;
+    }
+
+    .turtles_large{
+        display: none;
+    }
+    .turtles_small{
+        display: block;
+    }
+
+    .beautifulpattern_large{
+        display: none;
+    }
+    .beautifulpattern_small{
+        display: block;
+    }
+
+    .monster_large{
+        display: none;
+    }
+    .monster_small{
+        display: block;
+    }
+
 
 
 
@@ -1070,6 +1150,7 @@ input{
         margin-bottom: 10px;
         width: 300px;
     }
+    
 
 
 
