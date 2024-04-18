@@ -299,7 +299,8 @@ section {
     width: 100%;
     margin: 0 auto;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
+    
 }
 
 .sidepatterns {
@@ -334,6 +335,13 @@ section {
     line-height: 1.5rem;
     width: 80%;
     padding: 3%;
+   
+}
+
+.center_about p {
+    margin: 2% 0%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -344,10 +352,21 @@ section {
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.verticalme p{
+    
+        margin: 2% 0%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-family: "Josefin Sans", sans-serif;
+
 }
 
 .verticalme h2{
     margin-bottom: 2rem;
+    font-family: "Jomhuria", serif;
 }
 
 #center_about img {
